@@ -1,0 +1,181 @@
+/* border: 2px solid red; */
+
+body {
+    font-family: 'Arvo', sans-serif;
+}
+
+.logo {
+    margin: 24px;
+    color: white;
+}
+
+.navbar {
+    background-color: rgb(30, 48, 80);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 30vw;
+    margin: 12px;
+}
+
+li a {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    width: 96px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0));
+    border-radius: 4px;
+}
+
+.hero {
+    background-image: linear-gradient(rgb(30, 48, 80), rgba(0, 0, 0, 0));
+    display: flex;
+    align-items: center;
+}
+
+.hero-section {
+    margin-left: 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: white;
+    gap: 36px;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-text h1 {
+    font-size: 72px;
+    margin: 0;
+}
+
+.hero-text p{
+    font-family: 'Manrope', sans-serif;
+    font-weight: bold;
+}
+
+.main-cta-button {
+    color: rgba(30, 48, 80, 0.9);
+    text-decoration: none;
+    font-family: 'Manrope', sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.9), rgba(0, 0, 0, 0));
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 36px;
+    width: 20%;
+    padding: 8px 0;
+}
+
+.hero img {
+    margin-right: 10vw;
+    height: auto;
+    width: 400px;
+}
+
+.section-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+.section-1 h1 {
+    color: rgb(50, 50, 50);
+}
+
+.container-1 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 12px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: bold;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+}
+
+.card img {
+    height: 180px;
+    width: 240px;
+    margin: 12px;
+    border-radius: 8px;
+}
+
+.subtext {
+    width: 240px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.cta-button {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgba(30, 48, 80, 0.9);
+    border-radius: 4px;
+    width: 64px;
+    padding: 8px;
+}
+
+.container-2 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 12px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: bold;
+    border: 2px solid red;
+}
+
+.card-review {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    border: 2px solid red;
+}
+
+.card-review span {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid red;
+}
+
+.cta {
+    display: flex;
+    margin: 10vw;
+}
+
+.footer {
+    background-color: rgb(30, 48, 80);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
